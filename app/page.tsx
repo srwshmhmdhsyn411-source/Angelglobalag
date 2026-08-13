@@ -436,9 +436,9 @@ export default function Home() {
           {t.roles.map((role, index) => (
             <article className="person" key={`${role}-${index}`}>
               {index === 0 ? (
-                <div className="executive-portrait">
+                <div className="executive-portrait executive-photo">
                   <img
-                    src="/Angelglobalag/angel-logo.jpeg"
+                    src="/Angelglobalag/mohammad-hossein-soroush-executive.png"
                     alt={`${t.executiveName} — ${role}`}
                   />
                   <span className="executive-badge">CEO · CHAIRMAN</span>
