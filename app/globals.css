@@ -82,3 +82,16 @@
   object-position:50% 42%;
   box-shadow:none;
 }
+
+/* Lock the generated executive portrait inside the fixed-height card. */
+.people-grid .executive-portrait.executive-photo{position:relative;display:block}
+.people-grid .executive-portrait.executive-photo img{
+  position:absolute;
+  inset:0;
+  width:100%!important;
+  height:100%!important;
+  max-width:none;
+  aspect-ratio:auto;
+  object-fit:cover;
+  object-position:50% 48%;
+}
