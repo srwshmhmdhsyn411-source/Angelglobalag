@@ -292,7 +292,7 @@ export default function Home() {
     <main dir={rtl ? "rtl" : "ltr"} className={rtl ? "rtl" : ""}>
       <header className="nav-shell">
         <a className="brand" href="#top" aria-label="Angel Global AG home">
-          <img src="/angel-logo.jpeg" alt="Angel Global AG" />
+          <img src="/Angelglobalag/angel-logo.jpeg" alt="Angel Global AG" />
           <span>ANGEL <small>GLOBAL AG</small></span>
         </a>
         <nav aria-label="Main navigation">
@@ -329,7 +329,7 @@ export default function Home() {
         </div>
         <div className="hero-mark">
           <div className="glow" />
-          <img src="/angel-logo.jpeg" alt="" />
+          <img src="/Angelglobalag/angel-logo.jpeg" alt="" />
         </div>
         <div className="metrics">
           <span><b>CH</b>{t.metric1}</span>
@@ -438,7 +438,7 @@ export default function Home() {
               {index === 0 ? (
                 <div className="executive-portrait">
                   <img
-                    src="/mohammad-hossein-soroush-portrait-v2.png"
+                    src="/Angelglobalag/mohammad-hossein-soroush-portrait-v2.png"
                     alt={`${t.executiveName} — ${role}`}
                   />
                   <span className="executive-badge">CEO · CHAIRMAN</span>
@@ -446,7 +446,7 @@ export default function Home() {
               ) : index === 1 ? (
                 <div className="executive-portrait">
                   <img
-                    src="/elham-mohammadpour-portrait.png"
+                    src="/Angelglobalag/elham-mohammadpour-portrait.png"
                     alt={`${t.viceChairName} — ${role}`}
                   />
                   <span className="executive-badge">VICE-CHAIR</span>
@@ -454,7 +454,7 @@ export default function Home() {
               ) : index === 2 ? (
                 <div className="executive-portrait">
                   <img
-                    src="/sajjad-soroush-portrait.png"
+                    src="/Angelglobalag/sajjad-soroush-portrait.png"
                     alt={`${t.auditChairName} — ${role}`}
                   />
                   <span className="executive-badge">BOARD · AUDIT CHAIR</span>
@@ -537,7 +537,7 @@ export default function Home() {
 
       <footer>
         <div className="brand footer-brand">
-          <img src="/angel-logo.jpeg" alt="" />
+          <img src="/Angelglobalag/angel-logo.jpeg" alt="" />
           <span>ANGEL <small>GLOBAL AG</small></span>
         </div>
         <p>© 2026 Angel Global AG. {t.footer}</p>
