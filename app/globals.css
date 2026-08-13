@@ -48,3 +48,26 @@
 @media(max-width:720px){.icon-directory{padding:32px 20px 56px;grid-template-columns:repeat(2,1fr);gap:10px}.directory-item{min-height:132px;padding:16px}.directory-icon{width:42px;height:42px;font-size:21px}.directory-item strong{font-size:13px}}
 
 /* Leadership images use the original company-logo artwork without a dark overlay. */
+
+/* Bright leadership logo cards: the previous portrait PNG files contained dark/blank pixels. */
+.people-grid .executive-portrait{
+  display:grid;
+  place-items:center;
+  background:#f4f1ea;
+  padding:42px;
+}
+.people-grid .executive-portrait img{
+  width:min(260px,100%);
+  height:auto;
+  aspect-ratio:1;
+  object-fit:cover;
+  object-position:50% 27%;
+  border-radius:50%;
+  filter:none;
+  opacity:1;
+  box-shadow:0 12px 32px rgba(16,40,73,.14);
+  transform:none;
+}
+.people-grid .person:hover .executive-portrait img{transform:none}
+.people-grid .executive-portrait:after{content:none!important;display:none!important}
+.people-grid .executive-badge{bottom:18px}
