@@ -109,3 +109,12 @@
 }
 .people-grid .executive-portrait.executive-photo>img{display:none!important}
 .people-grid .executive-portrait.executive-photo .executive-badge{z-index:2}
+
+.people-grid .executive-portrait.executive-photo-elham{
+  background-image:url("/Angelglobalag/elham-mohammadpour-executive-v2.jpg");
+  background-position:center 47%;
+}
+.people-grid .executive-portrait.executive-photo-sajjad{
+  background-image:url("/Angelglobalag/sajjad-soroush-executive-v2.jpg");
+  background-position:center 48%;
+}
