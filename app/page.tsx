@@ -438,7 +438,7 @@ export default function Home() {
               {index === 0 ? (
                 <div className="executive-portrait executive-photo">
                   <img
-                    src="/Angelglobalag/mohammad-hossein-soroush-executive.png?v=2"
+                    src="/Angelglobalag/mohammad-hossein-soroush-executive-v2.jpg"
                     alt={`${t.executiveName} — ${role}`}
                   />
                   <span className="executive-badge">CEO · CHAIRMAN</span>
