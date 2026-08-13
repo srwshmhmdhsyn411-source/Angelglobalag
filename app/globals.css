@@ -95,3 +95,17 @@
   object-fit:cover;
   object-position:50% 48%;
 }
+
+/* Safari-safe executive portrait rendering. */
+.people-grid .executive-portrait.executive-photo{
+  position:relative;
+  display:block;
+  padding:0;
+  background-color:#171512;
+  background-image:url("/Angelglobalag/mohammad-hossein-soroush-executive.png?v=2");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center 48%;
+}
+.people-grid .executive-portrait.executive-photo>img{display:none!important}
+.people-grid .executive-portrait.executive-photo .executive-badge{z-index:2}
