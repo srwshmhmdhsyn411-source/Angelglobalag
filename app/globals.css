@@ -46,3 +46,5 @@
 .directory-item strong{margin-top:auto;padding-top:20px;font-size:14px;line-height:1.3}.directory-item i{position:absolute;top:18px;right:18px;color:#9fcfe0;font-size:13px;font-style:normal}.rtl .directory-item i{right:auto;left:18px;transform:scaleX(-1)}
 @media(max-width:1050px){.icon-directory{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:720px){.icon-directory{padding:32px 20px 56px;grid-template-columns:repeat(2,1fr);gap:10px}.directory-item{min-height:132px;padding:16px}.directory-icon{width:42px;height:42px;font-size:21px}.directory-item strong{font-size:13px}}
+
+/* Leadership images use the original company-logo artwork without a dark overlay. */
