@@ -518,7 +518,7 @@ export default function Home() {
 
       <section className="careers" id="careers">
         <div><p className="section-tag">{h.careersTag}</p><h2>{h.careersTitle}</h2><p>{h.careersText}</p></div>
-        <a className="button gold" href="mailto:careers@angelglobalag.com">{h.careersCta}</a>
+        <a className="button gold" href="mailto:Angelglobalag@gmail.com?subject=Career%20Application%20%E2%80%94%20Angel%20Global%20AG">{h.careersCta}</a>
       </section>
 
       <section className="presence" id="presence">
@@ -527,12 +527,25 @@ export default function Home() {
       </section>
 
       <section className="contact" id="contact">
-        <div>
+        <div className="contact-intro">
           <p className="section-tag">ANGEL GLOBAL AG</p>
           <h2>{t.contactTitle}</h2>
           <p>{t.contactText}</p>
         </div>
-        <a className="button gold" href="mailto:info@angelglobalag.com">{t.contact}</a>
+        <div className="contact-options">
+          <a className="contact-option" href="tel:+989129613500">
+            <span>PHONE</span>
+            <strong dir="ltr">+98 912 961 3500</strong>
+          </a>
+          <a className="contact-option" href="mailto:Angelglobalag@gmail.com?subject=Corporate%20Enquiry%20%E2%80%94%20Angel%20Global%20AG">
+            <span>GENERAL ENQUIRIES</span>
+            <strong>Angelglobalag@gmail.com</strong>
+          </a>
+          <a className="contact-option" href="mailto:Sorush367@gmail.com?subject=Management%20Enquiry%20%E2%80%94%20Angel%20Global%20AG">
+            <span>MANAGEMENT OFFICE</span>
+            <strong>Sorush367@gmail.com</strong>
+          </a>
+        </div>
       </section>
 
       <footer>
