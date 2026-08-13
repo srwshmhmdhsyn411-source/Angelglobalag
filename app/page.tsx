@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-type Language = "DE" | "EN" | "FA";
+type Language = "DE" | "EN";
 
 const copy = {
   DE: {
@@ -286,7 +286,7 @@ export default function Home() {
   const t = copy[language];
   const h = holdingContent[language];
   const menu = sectionMenu[language];
-  const rtl = language === "FA";
+  const rtl = false;
 
   return (
     <main dir={rtl ? "rtl" : "ltr"} className={rtl ? "rtl" : ""}>
@@ -302,7 +302,7 @@ export default function Home() {
           <a href="#contact">{t.nav[3]}</a>
         </nav>
         <div className="language" aria-label="Language selector">
-          {(["DE", "EN", "FA"] as Language[]).map((item) => (
+          {(["DE", "EN"] as Language[]).map((item) => (
             <button
               key={item}
               className={language === item ? "active" : ""}
