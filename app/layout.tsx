@@ -13,18 +13,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://angelglobalag.vercel.app"),
+  metadataBase: new URL("https://srwshmhmdhsyn411-source.github.io/Angelglobalag"),
   title: "Angel Global AG — Creating Value Beyond Borders",
   description:
     "Angel Global AG is a Swiss corporation connecting strategic investment, international partnerships and responsible governance.",
   alternates: {
-    canonical: "https://angelglobalag.vercel.app",
+    canonical: "https://srwshmhmdhsyn411-source.github.io/Angelglobalag",
   },
   openGraph: {
     title: "Angel Global AG — Creating Value Beyond Borders",
     description:
       "A Swiss holding company connecting strategic investment, responsible governance and international opportunity.",
-    url: "https://angelglobalag.vercel.app",
+    url: "https://srwshmhmdhsyn411-source.github.io/Angelglobalag",
     siteName: "Angel Global AG",
     type: "website",
   },
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
     "codex-preview": "development",
   },
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/Angelglobalag/favicon.svg",
+    shortcut: "/Angelglobalag/favicon.svg",
   },
 };
 
