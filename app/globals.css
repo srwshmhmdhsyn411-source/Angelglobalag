@@ -118,3 +118,14 @@
   background-image:url("/Angelglobalag/sajjad-soroush-executive-v2.jpg");
   background-position:center 48%;
 }
+
+
+/* Direct, mobile-friendly contact channels. */
+.contact{align-items:stretch}
+.contact-intro{max-width:620px}
+.contact-options{min-width:390px;display:grid;gap:10px}
+.contact-option{padding:18px 20px;display:flex;flex-direction:column;gap:6px;border:1px solid rgba(16,40,73,.18);border-radius:4px;background:#fff;color:var(--navy);transition:transform .2s,box-shadow .2s,border-color .2s}
+.contact-option:hover,.contact-option:focus-visible{transform:translateY(-2px);border-color:rgba(17,117,153,.55);box-shadow:0 10px 24px rgba(1,21,28,.09);outline:none}
+.contact-option span{color:#667085;font-size:10px;font-weight:700;letter-spacing:.11em}
+.contact-option strong{font-size:16px;overflow-wrap:anywhere}
+@media(max-width:720px){.contact-options{width:100%;min-width:0}.contact-option{padding:16px}.contact-option strong{font-size:14px}}
