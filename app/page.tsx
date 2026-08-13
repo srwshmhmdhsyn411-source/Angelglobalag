@@ -438,25 +438,21 @@ export default function Home() {
               {index === 0 ? (
                 <div className="executive-portrait">
                   <img
-                    src="/Angelglobalag/mohammad-hossein-soroush-portrait-v2.png"
+                    src="/Angelglobalag/mohammad-hossein-soroush.jpeg"
                     alt={`${t.executiveName} — ${role}`}
                   />
                   <span className="executive-badge">CEO · CHAIRMAN</span>
                 </div>
               ) : index === 1 ? (
-                <div className="executive-portrait">
-                  <img
-                    src="/Angelglobalag/elham-mohammadpour-portrait.png"
-                    alt={`${t.viceChairName} — ${role}`}
-                  />
+                <div className="portrait-placeholder">
+                  <img src="/Angelglobalag/angel-logo.jpeg" alt="" aria-hidden="true" />
+                  <strong>EM</strong>
                   <span className="executive-badge">VICE-CHAIR</span>
                 </div>
               ) : index === 2 ? (
-                <div className="executive-portrait">
-                  <img
-                    src="/Angelglobalag/sajjad-soroush-portrait.png"
-                    alt={`${t.auditChairName} — ${role}`}
-                  />
+                <div className="portrait-placeholder">
+                  <img src="/Angelglobalag/angel-logo.jpeg" alt="" aria-hidden="true" />
+                  <strong>SS</strong>
                   <span className="executive-badge">BOARD · AUDIT CHAIR</span>
                 </div>
               ) : (
