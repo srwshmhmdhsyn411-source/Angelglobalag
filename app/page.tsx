@@ -444,17 +444,17 @@ export default function Home() {
                   <span className="executive-badge">CEO · CHAIRMAN</span>
                 </div>
               ) : index === 1 ? (
-                <div className="executive-portrait">
+                <div className="executive-portrait executive-photo executive-photo-elham">
                   <img
-                    src="/Angelglobalag/angel-logo.jpeg"
+                    src="/Angelglobalag/elham-mohammadpour-executive-v2.jpg"
                     alt={`${t.viceChairName} — ${role}`}
                   />
                   <span className="executive-badge">VICE-CHAIR</span>
                 </div>
               ) : index === 2 ? (
-                <div className="executive-portrait">
+                <div className="executive-portrait executive-photo executive-photo-sajjad">
                   <img
-                    src="/Angelglobalag/angel-logo.jpeg"
+                    src="/Angelglobalag/sajjad-soroush-executive-v2.jpg"
                     alt={`${t.auditChairName} — ${role}`}
                   />
                   <span className="executive-badge">BOARD · AUDIT CHAIR</span>
