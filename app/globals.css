@@ -71,3 +71,14 @@
 .people-grid .person:hover .executive-portrait img{transform:none}
 .people-grid .executive-portrait:after{content:none!important;display:none!important}
 .people-grid .executive-badge{bottom:18px}
+
+.people-grid .executive-portrait.executive-photo{padding:0;background:#171512}
+.people-grid .executive-portrait.executive-photo img{
+  width:100%;
+  height:100%;
+  aspect-ratio:auto;
+  border-radius:0;
+  object-fit:cover;
+  object-position:50% 42%;
+  box-shadow:none;
+}
